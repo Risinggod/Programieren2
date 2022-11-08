@@ -5,11 +5,11 @@ def fahrnheit(temp1):
 def kelvin(temp2):
     return temp2+273.15
 while True:
-    question = input("what do you whana know")
-    if question=="fahrenheit":
+    question = input("what do you whana know f or k")
+    if question=="f":
         print(fahrnheit(tempratur_in_celsius))
         break
-    elif question=="kelvin":
+    elif question=="k":
         print(kelvin(tempratur_in_celsius))
         break
     else:
